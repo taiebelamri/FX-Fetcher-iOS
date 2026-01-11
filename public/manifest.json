@@ -1,0 +1,39 @@
+{
+  "name": "fx-fetcher",
+  "short_name": "fx-fetcher",
+  "description": "Compare real-time money transfer exchange rates from major providers including MoneyGram, Western Union, Remitly, and more. Find the best rates for sending money abroad.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://fxfetcher.vercel.app/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://fxfetcher.vercel.app/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+    "screenshots": [
+    {
+      "src": "https://fxfetcher.vercel.app/screenshots/mobile-1.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Compare Exchange Rates"
+    },
+    {
+      "src": "https://fxfetcher.vercel.app/screenshots/desktop-1.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop Dashboard"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
