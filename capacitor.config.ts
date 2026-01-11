@@ -1,9 +1,13 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.tyoubalabs.fxfetcherandroid',
+  appId: 'com.tyoubalabs.fxfetcher',
   appName: 'Fx Fetcher',
-  webDir: 'dist'
+  webDir: 'dist',
+  ios: {
+    useLegacySwiftPackageManager: false
+	
+  }
 };
 
 export default config;
